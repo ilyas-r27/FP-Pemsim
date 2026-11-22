@@ -1,0 +1,14 @@
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+
+# Arsip dan hasil akhir (di-zip manual saat submit)
+*.zip
+submission/
+
+# File sistem
+.DS_Store
+Thumbs.db
+
+# File lock Office
+~$*

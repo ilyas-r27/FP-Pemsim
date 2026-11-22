@@ -1,0 +1,15 @@
+# JaamSim: simpan byte apa adanya (jangan konversi CRLF/LF)
+*.cfg -text
+# Output JaamSim: jangan di-merge baris per baris, pilih salah satu versi utuh
+*.log -text -merge
+*.rep -text -merge
+
+*.ipynb text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+
+*.xlsx binary
+*.docx binary
+*.pptx binary
+*.pdf  binary
+*.png  binary
